@@ -1,0 +1,2 @@
+rootProject.name='The Eden v3'
+include ':app'

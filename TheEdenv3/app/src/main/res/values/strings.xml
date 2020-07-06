@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">The Eden v3</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_daily">打卡</string>
+    <string name="title_town">小镇</string>
+    <string name="title_friends">好友</string>
+    <string name="title_person">个人</string>
+
+    <string name="title_new_task">新建任务</string>
+
+    <string name="score_all">总分</string>
+    <string name="score_bedroom">作息</string>
+    <string name="score_gym">健身房</string>
+    <string name="score_kitchen">厨房</string>
+    <string name="score_study">书房</string>
+
+    <string name="daily_star">收藏</string>
+    <string name="daily_reconmend">推荐</string>
+    <string name="daily_group">小组</string>
+    <string name="daily_moment">关注</string>
+
+    <string name="task_punch">现在\n打卡</string>
+    <string name="task_ignore">忽略\n任务</string>
+    <string name="title_activity_task">TaskActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_place">PlaceActivity</string>
+
+
+</resources>

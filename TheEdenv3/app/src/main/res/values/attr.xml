@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DailyScoreView">
+        <attr name="background_color" format="color" />
+        <attr name="label" format="string" />
+        <attr name="label_text_size" format="float" />
+        <attr name="label_text_color" format="color" />
+        <attr name="score" format="integer" />
+    </declare-styleable>
+</resources>

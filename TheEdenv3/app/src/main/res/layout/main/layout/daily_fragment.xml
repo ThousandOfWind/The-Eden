@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.daily.DailyFragment">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_score"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.example.theedenv3.ui.score.DailyScoreView
+            android:id="@+id/view_all_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:background_color="#7D7DFF"
+            app:label="@string/score_all"
+            app:label_text_size="10"
+            app:label_text_color="#FFFFFF"
+            />
+        <com.example.theedenv3.ui.score.DailyScoreView
+            android:id="@+id/view_bedroom_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:background_color="#7D7DFF"
+            app:label="@string/score_bedroom"
+            app:label_text_size="10"
+            app:label_text_color="#FFFFFF"
+            />
+
+        <com.example.theedenv3.ui.score.DailyScoreView
+            android:id="@+id/view_gym_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:background_color="#7D7DFF"
+            app:label="@string/score_gym"
+            app:label_text_size="10"
+            app:label_text_color="#FFFFFF"
+            />
+        <com.example.theedenv3.ui.score.DailyScoreView
+            android:id="@+id/view_kitchen_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:background_color="#7D7DFF"
+            app:label="@string/score_kitchen"
+            app:label_text_size="10"
+            app:label_text_color="#FFFFFF"
+            />
+        <com.example.theedenv3.ui.score.DailyScoreView
+            android:id="@+id/view_study_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:background_color="#7D7DFF"
+            app:label="@string/score_study"
+            app:label_text_size="10"
+            app:label_text_color="#FFFFFF"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_tab"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout_score">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/daily_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager_tab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
