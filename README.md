@@ -3,7 +3,7 @@ for Google Hackathon
 and TheEdenV3 is our android project
 
 同时包括了利用axure完成了app原型设计
-[demo](https://github.com/ThousandOfWind/App_demo.git)
+[demo](https://thousandofwind.github.io/App_demo)
 
 完成数据库的设计
 [database](https://github.com/ThousandOfWind/App_database_design.git)
